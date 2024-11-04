@@ -45,3 +45,63 @@ h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+/* Text Presets */
+
+.mobile-preset-1 {
+  color: #4D4F62;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 0.01rem;
+}
+
+.mobile-preset-1-bold {
+  color: #4D4F62;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.01rem;
+}
+
+.text-preset-1 {
+  color: #4D4F62;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 300;
+  letter-spacing: 0.016rem;
+}
+
+.text-preset-1-bold {
+  color: #4D4F62;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 600;
+  letter-spacing: 0.016rem;
+}
+
+.text-preset-2 {
+  color: #4D4F62;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.938;
+  font-weight: 400;
+  line-height: 1.563rem;
+  letter-spacing: 0.007rem;
+}
+
+.text-preset-3 {
+  color: #4D4F62;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.text-preset-4 {
+  color: #4D4F62;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.813rem;
+  font-weight: 400;
+  line-height: 1.438rem;
+  letter-spacing: 0.006rem;
+}
+
