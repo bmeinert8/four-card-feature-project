@@ -9,6 +9,7 @@
 }
 
 body {
+  background-color: #FAFAFA;
   /* 3. Add accessible line-height */
   line-height: 1.5;
   /* 4. Improve text rendering */
@@ -64,6 +65,18 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.01rem;
 }
 
+.mobile-preset-2 {
+  color: #4D4F62;
+text-align: center;
+font-family: "Poppins", sans-serif;
+font-size: 0.938rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.563rem;
+letter-spacing: 0.007rem;
+opacity: 0.5;
+}
+
 .text-preset-1 {
   color: #4D4F62;
   font-family: "Poppins", sans-serif;
@@ -83,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 .text-preset-2 {
   color: #4D4F62;
   font-family: "Poppins", sans-serif;
-  font-size: 0.938;
+  font-size: 0.938rem;
   font-weight: 400;
   line-height: 1.563rem;
   letter-spacing: 0.007rem;
@@ -105,3 +118,54 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.006rem;
 }
 
+/* Mobile Layout */
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* title section */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  width: 375px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 10.063rem;
+  width: 19.438rem;
+  margin: 5.313rem 2rem  4.875rem 2rem;
+}
+
+.title-text {
+  margin-top: 0.813rem;
+}
+
+/* cards section */
+
+.card-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 0 2rem 4.875rem 2rem;
+}
+
+.card {
+  background: #FFFFFF;
+  border-radius: 0.5rem;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+  height: 13.875rem;
+  width: 19.438rem;
+
+}
