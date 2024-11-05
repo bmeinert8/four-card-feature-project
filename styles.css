@@ -32,10 +32,6 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
-/* 8. Improve line wrapping */
-p {
-  text-wrap: pretty;
-}
 h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
 }
@@ -112,10 +108,11 @@ opacity: 0.5;
 .text-preset-4 {
   color: #4D4F62;
   font-family: "Poppins", sans-serif;
-  font-size: 0.813rem;
+  font-size: 0.8rem;
   font-weight: 400;
   line-height: 1.438rem;
   letter-spacing: 0.006rem;
+  opacity: 0.5;
 }
 
 /* Mobile Layout */
@@ -162,6 +159,8 @@ main{
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   background: #FFFFFF;
   border-radius: 0.5rem;
   box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
@@ -190,4 +189,41 @@ main{
 
 .color4 {
   background-color: #549EF2;
+}
+
+.card-title {
+  padding-top: 1.75rem;
+  padding-left: 1.75rem;
+}
+
+.card-info {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
+.icon {
+  height: 3.563rem;
+  width: 3.563rem;
+  margin-right: 1.75rem;
+  padding-top: 1.75rem;
+  padding-right: 1.75rem;
+  padding-bottom: 1.75rem;
+  align-self: flex-end;
+}
+
+.image1 {
+  background: url(./images/icon-supervisor.svg) 50%/cover no-repeat;
+}
+
+.image2 {
+  background: url(./images/icon-team-builder.svg) 50%/cover no-repeat;
+}
+
+.image3 {
+  background: url(./images/icon-karma.svg) 50%/cover no-repeat;
+}
+
+.image4 {
+  background: url(./images/icon-calculator.svg) 50%/cover no-repeat;
 }
