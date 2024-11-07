@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 5.313rem;
   }
 
   /* font */
@@ -14,6 +15,7 @@
   .container {
     width: 100%;
     max-width: 75rem;
+    gap: 4rem;
   }
 
   .title-container {
