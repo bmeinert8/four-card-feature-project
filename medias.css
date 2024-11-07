@@ -50,21 +50,20 @@
   .card-info {
     padding-left: 1rem;
     padding-right: 1rem;
+    max-width: 19rem;
   }
 
   .icon {
     height: 4rem;
     width: 4rem;
     margin-top: 2rem;
-    margin-right: 1rem;
+    margin-right: 1.75rem;
+    margin-bottom: 1.75rem;
     padding-top: 1rem;
     padding-right: 1rem;
     padding-bottom: 1rem;
   }
 
-  .special-icon {
-    margin-top: 3rem;
-  }
 
   /* Positioning cards in diamond formation */
   .supervisor-card {
